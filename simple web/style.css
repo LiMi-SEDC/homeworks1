@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #696969; */
+    background-color: #0c2461;
+}
+header h1{
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    color: #00ffff;
+    font-size: 5em;
+    font-family: 'Langar', cursive;
+}
+header p{
+    position: absolute;
+    top: 22%;
+    left: 1%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+p span{
+    color: yellow;
+}
+header hr{
+    position: absolute;
+    width: 98%;
+    top: 28%;
+    left: 1%;
+}
+.section1{
+    position: absolute;
+    top: 35%;
+    left: 1%;
+}
+.section1 h2{
+    position: relative;
+    top: -30px;
+    color: #00ffff;
+    font-weight: 600;
+}
+.section1 nav{
+    width: 100%;
+    padding: 10px 40px;
+}
+.section1 nav ul li{
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+}
+.section2{
+    position: absolute;
+    top: 60%;
+    left: 1%;
+}
+.section2 h2{
+    position: absolute;
+    top: -50px;
+    color: #00ffff;
+    font-weight: 600;
+}
+.section2 h2 + p{
+    color: #fff;
+    line-height: 50px;
+    font-size: 18px;
+}
+.section2 p.movies{
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    color: #fff;
+    line-height: 25px;
+}
+.section2 a{
+    text-decoration: none;
+}
+.section2 a:hover{
+    text-decoration: underline;
+}
+.section2 span.span1{
+    color: #ff0000;
+}
+.section2 span.span2{
+    color: #7fff00;
+}
+.section2 span.span3{
+    color: deeppink;
+}
+.section3{
+    position: absolute;
+    top: 85%;
+    left: 1%;
+}
+.section3 h2{
+    position: absolute;
+    top: -50px;
+    color: #00ffff;
+    font-weight: 600;
+}
+.section3 p{
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+}
+.section3 img{
+    width: 300px;
+}
+.section4{
+    position: absolute;
+    top: 120%;
+    left: 1%;
+}
+.section4 h2{
+    color: #00ffff;
+}
+.section4 nav{
+    width: 100%;
+    padding: 30px 40px;
+}
+.section4 nav ul li{
+    font-size: 18px;
+    color: #fff;
+}
